@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание от Manao</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+
+@@include('blocks/header.html')
+<div class="block__wrapper">
+@@include('page-blocks/greeting.html')
+</div>
+<div class="white-block">
+    @@include('page-blocks/about.html')
+    @@include('page-blocks/services.html')
+    @@include('page-blocks/publications.html')
+</div>
+
+@@include('blocks/footer.html')
+
+<div class="popup__thanks">
+    <h1>Спасибо за оставленную заявку</h1>
+    <img src="./img/popup/kvokka.png" alt="">
+    <div class="cross">
+        <img src="./img/popup/cross.svg" alt="">
+    </div>
+</div>
+<div class="overlay"></div>
+<div class="overlay__burger"></div>
+<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+{
+  "name": "testworkmanao",
+  "version": "1.0.0",
+  "description": "Test work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaPolovkov1/ManaoTask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaPolovkov1/ManaoTask/issues"
+  },
+  "homepage": "https://github.com/NikitaPolovkov1/ManaoTask#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.1",
+    "gulp": "^4.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass-tilde-importer": "^1.0.2",
+    "sass": "^1.76.0",
+    "slick-slider": "^1.8.2",
+    "style-loader": "^4.0.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}

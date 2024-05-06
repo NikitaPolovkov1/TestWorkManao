@@ -1,0 +1,84 @@
+@import "./blocks/header";
+@import "./blocks/footer";
+@import "./fonts/fonts";
+@import "page-blocks/greeting";
+@import "page-blocks/about";
+@import "page-blocks/services";
+@import "page-blocks/publications";
+
+@import "libs/slick";
+
+
+
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img{
+  width: 100%;
+}
+
+body{
+  background: rgba(4, 11, 42, 1);
+}
+
+.white-block{
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.block__wrapper{
+  padding-top: 206px;
+  background-image: url('../img/backgrounds/greeting.png'); /* Устанавливаем изображение фона */
+  background-size: cover; /* Растягиваем изображение фона на всю ширину и высоту */
+  background-position: center; /* Центрируем изображение фона */
+}
+
+.overlay, .overlay__burger{
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: .4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  display: none;
+}
+
+.popup__thanks{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: rgba(255, 255, 255 ,1);
+  border-radius: 20px;
+  display: none;
+  z-index: 6;
+
+  h1{
+    font-family: 'Pragmatica';
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .cross{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -20px;
+    right: -20px;
+    background-color: #3F0F72;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+

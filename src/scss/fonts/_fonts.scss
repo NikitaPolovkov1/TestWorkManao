@@ -1,0 +1,412 @@
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('../../fonts/Pragmatica-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('../../fonts/Pragmatica-BlackOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('../../fonts/Pragmatica-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('../../fonts/Pragmatica-BoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('../../fonts/Pragmatica-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('../../fonts/Pragmatica-BookOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('../../fonts/Pragmatica-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('../../fonts/Pragmatica-ExtraBoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'Pragmatica-ExtraLight';
+  src: url('../../fonts/Pragmatica-ExtraLight.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('../../fonts/Pragmatica-ExtraLightOblique.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'Pragmatica-Light';
+  src: url('../../fonts/Pragmatica-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('../../fonts/Pragmatica-LightOblique.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('../../fonts/Pragmatica-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pragmatica';
+  src: url('../../fonts/Pragmatica-MediumOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'PragmaticaCond';
+  src: url('../../fonts/PragmaticaCond-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaCond';
+  src: url('../../fonts/PragmaticaCond-BlackOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'PragmaticaCond';
+  src: url('../../fonts/PragmaticaCond-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaCond';
+  src: url('../../fonts/PragmaticaCond-BoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'PragmaticaCond';
+  src: url('../../fonts/PragmaticaCond-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaCond';
+  src: url('../../fonts/PragmaticaCond-BookOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'PragmaticaCond';
+  src: url('../../fonts/PragmaticaCond-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaCond';
+  src: url('../../fonts/PragmaticaCond-ExtraBoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'PragmaticaCond';
+  src: url('../../fonts/PragmaticaCond-ExtraLight.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaCond';
+  src: url('../../fonts/PragmaticaCond-ExtraLightObliqu.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'PragmaticaCond';
+  src: url('../../fonts/PragmaticaCond-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaCond';
+  src: url('../../fonts/PragmaticaCond-LightOblique.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'PragmaticaCond';
+  src: url('../../fonts/PragmaticaCond-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-BlackOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-BoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-BookOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-ExtraBoldObl.ttf') format('truetype');
+  font-weight: bold;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-ExtraLight.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-ExtraLightOb.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-LightOblique.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PragmaticaExtended';
+  src: url('../../fonts/PragmaticaExtended-MediumObliqu.ttf') format('truetype');
+  font-weight: normal;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-BlackItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-DemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TTCommons-ExtraLight';
+  src: url('../../fonts/TTCommons-ExtraLight.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-ExtraLightItalic.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-LightItalic.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-MediumItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TTCommons-Regular';
+  src: url('../../fonts/TTCommons-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTCommons';
+  src: url('../../fonts/TTCommons-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}

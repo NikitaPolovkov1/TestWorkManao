@@ -1,0 +1,118 @@
+@import '../../../node_modules/slick-slider/slick/slick';
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+
+  .slick-prev,
+  .slick-next {
+    width: 49px;
+    height: 49px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+
+
+  .slick-prev {
+    background-image: url('../../img/svg/arrow_slider.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    left: -20px;
+    transition: .4s;
+
+    &:hover {
+      background-image: url('../../img/svg/arrow_left_active.svg');
+      transition: .4s;
+    }
+  }
+
+  .slick-next {
+    background-image: url('../../img/svg/arrow_right.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 0px;
+    transition: .4s;
+
+    &:hover {
+      background-image: url('../../img/svg/arrow_right_active.svg');
+      transition: .4s;
+    }
+  }
+
+  .slider__item {
+    max-width: 370px;
+
+    .slider__item-content {
+      padding: 30px;
+      background: rgba(246, 244, 249, 1);
+
+
+      .slider__item-title {
+        font-family: 'TTCommons-Regular';
+        font-size: 22px;
+        font-weight: lighter;
+        font-style: normal;
+        line-height: 24px;
+        text-align: left;
+        margin-bottom: 11px;
+
+      }
+
+      .slider__item-text {
+        font-family: 'Pragmatica-ExtraLight';
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 26px;
+        color: rgba(119, 119, 119, 1);
+
+      }
+
+      .slider__line {
+        margin-bottom: 18px;
+      }
+
+      .slider__item__footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .slider__item__footer-date {
+          display: flex;
+          gap: 7px;
+
+          .date__date{
+            font-family: 'TTCommons';
+            font-size: 15px;
+            font-weight: 500;
+            color: rgba(196, 196, 196, 1);
+
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px)
+{
+  .slider {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+
+    .slick-prev{
+      left: 0;
+    }
+  }
+}
