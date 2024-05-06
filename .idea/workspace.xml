@@ -35,7 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/nikitapolovkov/Documents/TestWorkManao/src/img/svg",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -77,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714649907718</updated>
       <workItem from="1714649908823" duration="11964000" />
-      <workItem from="1714738334379" duration="47921000" />
+      <workItem from="1714738334379" duration="48234000" />
     </task>
     <task id="LOCAL-00001" summary="Creating full version for desktop">
       <option name="closed" value="true" />
